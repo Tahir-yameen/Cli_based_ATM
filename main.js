@@ -1,7 +1,10 @@
+#! /usr/bin/env node
+
 import inquirer from "inquirer";
 import chalk from "chalk";
 let myBalance = 10000; //Dollar
 let myPin = 2037;
+
 console.log(chalk.yellow("\n\t ==============================="));
 console.log(chalk.yellow(`^~^~^~^~^~ Welcome To My Cli Based ATM ~^~^~^~^~^`));
 console.log(chalk.yellow("\t ===============================\n"));
